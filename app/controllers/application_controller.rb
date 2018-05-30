@@ -130,7 +130,7 @@ class ApplicationController < Sinatra::Base
     redirect '/tweets'
     else
       redirect '/login'
-    end 
+    end
   end
 
 
